@@ -1,6 +1,5 @@
 const frase = `Jorge tem uma casa verde e com portão azul, com os dizeres: "BOAS VINDAS, mas não deixe o gato sair"`
-let fraseModificada = frase.replaceAll("verde", "rosa");
-fraseModificada = fraseModificada.replaceAll("azul", "laranja");
+let fraseModificada = frase.replaceAll("verde", "rosa").replaceAll("azul", "laranja")
 
 console.log(fraseModificada);
 console.log(`A frase incluí verde? ${fraseModificada.includes("verde")} 

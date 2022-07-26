@@ -1,9 +1,9 @@
-let minhaString = "Eu não sou supersticioso, mas sou um pouco ________.      ";
+const minhaString = "Eu não sou supersticioso, mas sou um pouco ________.      ";
+let minhaString2 = minhaString.trim()
 
 console.log("Caracteres antes:", minhaString.length);
-minhaString = minhaString.trim()
-console.log("Caracteres depois:",minhaString.length);
-minhaString = minhaString.replace("________", "sticioso");
-console.log(minhaString);
+console.log("Caracteres depois:",minhaString2.length);
 
-// Mudei a string do tipo const para let para simplificar o código e facilitar as operações
+minhaString2 = minhaString2.replace("________", "sticioso");
+
+console.log(minhaString2);
